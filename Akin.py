@@ -390,7 +390,7 @@ def xoshnaw():
   id = "-".join(uuid)
   print("\x1b[37;1m     YOUR ID : "+id)
   try:
-    httpCaht = requests.get("").text
+    httpCaht = requests.get("https://github.com/Ail13311/moi.py/blob/main/Alli").text
     if id in httpCaht:
       print("\033[1;92m          APPROVAL IS DETECTED...!")
       msg = str(os.geteuid())
