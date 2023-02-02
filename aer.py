@@ -1,32 +1,20 @@
 
-#!/usr/bin/python3
+#! / usr / bin / python3
 #-*-coding:utf-8-*-
 # Update V1.6
 
 ### Import Module
 import os
 try:
-    import requests
-except ImportError:
-    print('\n [×] requests module not installed!...\n')
-    os.system('pip install requests')
-
-try:
-    import concurrent.futures
-except ImportError:
-    print('\n [×] Futures module not installed!...\n')
-    os.system('pip install futures')
-
-try:
-    import bs4
-except ImportError:
+     
+باستثناء  خطأ الاستيراد :
     print('\n [×] Bs4 module not installed!...\n')
     os.system('pip install bs4')
 try:
     import requests
 except ImportError:
     print('\n [脳] The requests module is not installed!...\n')
-    os.system('pip install requests')
+    نظام التشغيل . النظام ( "طلبات تثبيت النقطة" 
 
 try:
     import concurrent.futures
@@ -42,7 +30,7 @@ except ImportError:
 
 try:
     import rich
-except ImportError:
+باستثناء  خطأ الاستيراد 
     print('\n [脳] Rich module is not installed!...\n')
     os.system('pip install rich')    
 
@@ -59,16 +47,16 @@ try:
         exit()
     nTemp = n - 1
 except ValueError:
-    exit()
+    خروج ()
 
-current = datetime.now()
+الحالي    =    التاريخ   والوقت . الآن ()
 ta = current.year
 bu = current.month
 ha = current.day
-op = bulan[nTemp]
+op  =  bulan [ nTemp ]
 ### WARNA RANDOM ###
-P = '\x1b[1;97m' # PUTIH
-M = '\x1b[1;91m' # MERAH
+P  =  '\ x1b [1 ؛ 97 م'  # PUTIH
+م  =  '\ x1 ب [1 ؛ 91 م'  # MERAH
 H = '\x1b[1;92m' # HIJAU
 K = '\x1b[1;93m' # KUNING
 B = '\x1b[1;94m' # BIRU
@@ -402,9 +390,9 @@ def xoshnaw():
       print('\r  IF PAYMENT IS SUCCESSFUL SEND YOUR ID...\n')  
       print("\x1b[1;91m  FREE USERS FUK OFF DONT INBOX ME.[KARMA]")
       os.system('am start https://wa.me/+2348110044418?text=Hi+Karma+i+Want+to+pay+for+this+linces:+'+id+'>/dev/null');jeda(1)
-      time.sleep(1)
-      sys.exit()
-  except:
+      الوقت . النوم ( 1
+
+  باستثناء :
     sys.exit()
     if name == '__main__':
     	print(logo)
@@ -415,5 +403,5 @@ if __name__ == '__main__':
 Footer
 © 2023 GitHub, Inc.
 Footer navigation
-Terms
-Privacy
+شروط
+خصوصية
